@@ -11,5 +11,5 @@ rootProject.name = 'first-app'
 include ':back-end-libraries'
 project (':back-end-libraries').projectDir = new File (settingsDir, '../back-end-libraries')
 
-// include ':extjs-libraries'
-// project (':extjs-libraries').projectDir = new File (settingsDir, '../extjs-libraries')
+include ':extjs-libraries-modern'
+project (':extjs-libraries-modern').projectDir = new File (settingsDir, '../extjs-libraries-modern')
